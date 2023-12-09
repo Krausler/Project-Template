@@ -12,6 +12,16 @@ project "Application"
         "src/**.h"    
     }
 
+    includedirs
+    {
+        "%{wks.location}/Core/src"
+    }
+
+    link
+    {
+        "Core"
+    }
+
     filter "system:windows"
 
     filter "configurations:Debug"
