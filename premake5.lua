@@ -1,6 +1,10 @@
-workspace "Project"
+require "clion"
+
+workspace "Replace-Me"
     architecture "x86_64"
     startproject "Application"
+
+    toolset "msc"
 
     configurations
     {

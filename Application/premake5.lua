@@ -17,7 +17,7 @@ project "Application"
         "%{wks.location}/Core/src"
     }
 
-    link
+    links
     {
         "Core"
     }
